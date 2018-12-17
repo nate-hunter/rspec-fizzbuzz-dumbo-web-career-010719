@@ -3,6 +3,7 @@
 
 def fizzbuzz(int)
   if int % 3 == 0 && int % 5 == 0
+<<<<<<< HEAD
     "FizzBuzz"
     
   else if
@@ -12,6 +13,17 @@ def fizzbuzz(int)
   else if 
     int % 5 == 0 
       "Buzz"
+=======
+    puts "FizzBuzz"
+    
+  else if
+    int % 3 == 0
+    puts "Fizz"
+  
+  else if 
+    int % 5 == 0 
+      puts "Buzz"
+>>>>>>> 80558aa57fa57e008eb0482631da2c14e780521c
 
 end
 end
